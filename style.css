@@ -27,6 +27,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem;
+  background-color: var(--white);
+  z-index: 10;
 }
 
 .nav {
@@ -66,4 +68,26 @@ body {
   margin: 1.45rem 0;
   color: var(--darkBlue);
   text-decoration: none;
+}
+
+.hero__background {
+  position: relative;
+  height: 97vw;
+  margin-top: -15.2vw;
+  background-image: url("images/bg-intro-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.hero__background::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-image: url("images/image-mockups.png");
+  background-size: calc(100% - 1.4rem);
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
