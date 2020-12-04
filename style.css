@@ -22,8 +22,10 @@ body {
 }
 
 .header {
+  position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1.4rem;
 }
 
@@ -37,5 +39,22 @@ body {
 }
 
 .nav__list {
-  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: calc(100% - 2.8rem);
+  padding: 0.7rem 0;
+  margin: 1.4rem auto;
+  border-radius: 5px;
+  background-color: var(--white);
+  text-align: center;
+  list-style: none;
+}
+
+.nav__link {
+  display: block;
+  margin: 1.45rem 0;
+  color: var(--darkBlue);
+  text-decoration: none;
 }
