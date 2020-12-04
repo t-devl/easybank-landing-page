@@ -17,8 +17,12 @@
 }
 
 body {
-  font-family: "Public Sans", sans-serif;
   font-size: 18px;
+}
+
+body,
+button {
+  font-family: "Public Sans", sans-serif;
 }
 
 .header {
@@ -70,6 +74,10 @@ body {
   text-decoration: none;
 }
 
+.hero {
+  padding-bottom: 4.5rem;
+}
+
 .hero__background {
   position: relative;
   height: 97vw;
@@ -90,4 +98,33 @@ body {
   background-size: calc(100% - 1.4rem);
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+
+.hero__content {
+  padding: 0 1.4rem;
+  text-align: center;
+}
+
+.hero__title {
+  margin: 1rem 0;
+  color: var(--darkBlue);
+  font-size: 2.2em;
+  font-weight: 400;
+}
+
+.hero__description {
+  margin: 1rem 0;
+  color: var(--greyishBlue);
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+
+.hero__button {
+  padding: 0.8em 1.8em;
+  margin: 1rem 0;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
+  color: var(--white);
+  font-size: 0.85em;
 }
