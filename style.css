@@ -29,6 +29,10 @@ body {
   padding: 1.4rem;
 }
 
+.nav {
+  height: 23px;
+}
+
 .nav__toggle {
   border: none;
   background: none;
@@ -39,6 +43,7 @@ body {
 }
 
 .nav__list {
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
@@ -50,6 +55,10 @@ body {
   background-color: var(--white);
   text-align: center;
   list-style: none;
+}
+
+.nav__list--open {
+  display: block;
 }
 
 .nav__link {
