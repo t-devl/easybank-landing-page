@@ -136,13 +136,15 @@ button {
 }
 
 .features__intro-title,
-.feature__title {
+.feature__title,
+.latest-articles__title {
   margin: 1rem 0;
   color: var(--darkBlue);
   font-weight: normal;
 }
 
-.features__intro-title {
+.features__intro-title,
+.latest-articles__title {
   font-size: 1.8em;
 }
 
@@ -168,4 +170,57 @@ button {
 
 .feature__title {
   font-size: 1.1em;
+}
+
+.latest-articles {
+  padding: 4.5rem 1.4rem 3.9rem;
+  background-color: var(--veryLightGrey);
+}
+
+.latest-articles__title {
+  text-align: center;
+}
+
+.article {
+  padding-bottom: 0.5rem;
+  margin: 1.9rem 0;
+  border-radius: 5px;
+  background-color: var(--white);
+  overflow: hidden;
+}
+
+.article__image-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.article__image {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.article__body {
+  padding: 1.4rem 1.9rem;
+}
+
+.article__author {
+  color: var(--greyishBlue);
+  font-size: 0.55em;
+}
+
+.article__title {
+  margin: 0.5rem 0;
+  color: var(--darkBlue);
+  font-size: 0.91em;
+  font-weight: normal;
+}
+
+.article__description {
+  margin: 0.5rem 0;
+  color: var(--greyishBlue);
+  font-size: 0.72em;
+  line-height: 1.4;
 }
