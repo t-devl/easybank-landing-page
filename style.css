@@ -128,3 +128,44 @@ button {
   color: var(--white);
   font-size: 0.85em;
 }
+
+.features {
+  padding: 3rem 1.4rem;
+  background-color: var(--lightGreyishBlue);
+  text-align: center;
+}
+
+.features__intro-title,
+.feature__title {
+  margin: 1rem 0;
+  color: var(--darkBlue);
+  font-weight: normal;
+}
+
+.features__intro-title {
+  font-size: 1.8em;
+}
+
+.features__intro-description,
+.feature__description {
+  margin: 1rem 0;
+  color: var(--greyishBlue);
+  font-size: 0.83em;
+  line-height: 1.6;
+}
+
+.features__wrapper {
+  padding: 1.5rem 0;
+}
+
+.feature {
+  padding: 0.5rem 0;
+}
+
+.feature__icon {
+  margin: 0.5rem 0;
+}
+
+.feature__title {
+  font-size: 1.1em;
+}
