@@ -119,7 +119,8 @@ button {
   line-height: 1.6;
 }
 
-.hero__button {
+.hero__button,
+.footer__button {
   padding: 0.8em 1.8em;
   margin: 1rem 0;
   border-radius: 50px;
@@ -223,4 +224,48 @@ button {
   color: var(--greyishBlue);
   font-size: 0.72em;
   line-height: 1.4;
+}
+
+.footer {
+  padding: 1rem 1.4rem 2.5rem;
+  background-color: var(--darkBlue);
+  font-weight: lighter;
+  text-align: center;
+}
+
+.footer__logo {
+  display: block;
+  margin: 1.5rem auto;
+}
+
+.footer__media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  list-style: none;
+}
+
+.footer__media-link {
+  margin: 0 0.4rem;
+}
+
+.footer__menu {
+  font-size: 0.85em;
+  list-style: none;
+}
+
+.footer__menu-item {
+  margin: 1rem 0;
+}
+
+.footer__menu-link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer__copyright {
+  margin: 0.5rem 0;
+  font-size: 0.85em;
+  color: var(--greyishBlue);
 }
