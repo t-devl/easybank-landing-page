@@ -131,7 +131,7 @@ button {
 }
 
 .features {
-  padding: 3rem 1.4rem;
+  padding: 3rem 1.4rem 1rem;
   background-color: var(--lightGreyishBlue);
   text-align: center;
 }
@@ -153,7 +153,7 @@ button {
 .feature__description {
   margin: 1rem 0;
   color: var(--greyishBlue);
-  font-size: 0.83em;
+  font-size: 0.82em;
   line-height: 1.6;
 }
 
