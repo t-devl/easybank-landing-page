@@ -366,6 +366,24 @@ button {
   .feature {
     padding: 0.5rem 0;
   }
+
+  .latest-articles {
+    padding: 4.5rem 10.4rem 3.9rem;
+  }
+
+  .latest-articles__title {
+    text-align: left;
+  }
+
+  .articles-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 1.2rem;
+  }
+
+  .article__body {
+    padding: 1.3rem 1.5rem 0.5rem;
+  }
 }
 
 @media (min-width: 1250px) {
