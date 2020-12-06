@@ -279,11 +279,7 @@ button {
   color: var(--greyishBlue);
 }
 
-@media (min-width: 1000px) {
-  .header {
-    padding: 1.4rem 10.4rem;
-  }
-
+@media (min-width: 1080px) {
   .nav {
     display: flex;
     height: auto;
@@ -310,5 +306,49 @@ button {
 
   .header__button {
     display: block;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    background-color: var(--veryLightGrey);
+    padding-bottom: 0;
+  }
+
+  .hero__background {
+    width: 100%;
+    min-width: 700px;
+    height: 100%;
+    margin-top: 0;
+    background-image: url("images/bg-intro-desktop.svg");
+    background-size: 1200px;
+    background-position: -40px -250px;
+    order: 1;
+  }
+
+  .hero__background::after {
+    height: calc(100% + 160px);
+    background-image: url("images/image-mockups.png");
+    background-size: 90%;
+    background-position: 250% 100%;
+  }
+
+  .hero__content {
+    width: 70%;
+    padding: 0 1.4rem;
+    font-size: 1.1em;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1250px) {
+  .header {
+    padding: 1.4rem 10.4rem;
+  }
+
+  .hero__content {
+    padding: 0 3rem 0 10.4rem;
   }
 }
