@@ -224,9 +224,13 @@ button {
 
 .article__title {
   margin: 0.5rem 0;
-  color: var(--darkBlue);
   font-size: 0.91em;
   font-weight: normal;
+}
+
+.article__link {
+  color: var(--darkBlue);
+  text-decoration: none;
 }
 
 .article__description {
