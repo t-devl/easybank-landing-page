@@ -80,6 +80,7 @@ button {
 
 .hero {
   padding-bottom: 4.5rem;
+  background-color: var(--veryLightGrey);
 }
 
 .hero__background {
@@ -313,7 +314,6 @@ button {
     justify-content: space-between;
     align-items: center;
     height: 600px;
-    background-color: var(--veryLightGrey);
     padding-bottom: 0;
   }
 
