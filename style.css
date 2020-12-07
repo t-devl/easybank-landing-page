@@ -30,6 +30,11 @@ button {
   cursor: pointer;
 }
 
+.scroll-disabled {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -320,6 +325,11 @@ button {
 }
 
 @media (min-width: 1080px) {
+  .scroll-disabled {
+    height: auto;
+    overflow: auto;
+  }
+
   .header {
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
