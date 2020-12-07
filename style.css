@@ -384,6 +384,48 @@ button {
   .article__body {
     padding: 1.3rem 1.5rem 0.5rem;
   }
+
+  .footer {
+    display: grid;
+    grid-template-areas:
+      "logo menu button"
+      "media menu copyright";
+    padding: 2.5rem 10.4rem;
+  }
+
+  .footer__logo {
+    grid-area: logo;
+    margin: 0;
+  }
+
+  .footer__menu {
+    grid-area: menu;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+
+  .footer__menu-item {
+    margin: 0.5rem 0;
+  }
+
+  .footer__media {
+    grid-area: media;
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .footer__button {
+    grid-area: button;
+    width: 172px;
+    margin-top: 0;
+    margin-left: auto;
+  }
+
+  .footer__copyright {
+    grid-area: copyright;
+    text-align: right;
+  }
 }
 
 @media (min-width: 1250px) {
