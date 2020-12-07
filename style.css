@@ -281,6 +281,11 @@ button {
 }
 
 @media (min-width: 1080px) {
+  .header {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
   .nav {
     display: flex;
     height: auto;
@@ -430,7 +435,8 @@ button {
 
 @media (min-width: 1250px) {
   .header {
-    padding: 1.4rem 10.4rem;
+    padding-left: 10.4rem;
+    padding-right: 10.4rem;
   }
 
   .hero__content {
