@@ -23,6 +23,7 @@ button {
 }
 
 body {
+  min-width: 350px;
   font-size: 18px;
 }
 
@@ -95,6 +96,7 @@ button {
 
 .hero__background {
   position: relative;
+  min-height: 339px;
   height: 97vw;
   margin-top: -15.2vw;
   background-image: url("images/bg-intro-mobile.svg");
